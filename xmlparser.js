@@ -75,7 +75,6 @@ class XMLParser {
                 let xmlBody = {}
                 xmlBody[parent.nodeName] = jsObjectData
                 convertedData[XML.item(0).nodeName] = xmlBody
-                console.log(JSON.stringify(convertedData))
                 return convertedData
 
             }
